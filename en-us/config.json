@@ -1,0 +1,19 @@
+{
+	"author": "WoT.City, Inc.",
+	"url": "http://wotcity.com",
+	"title": "Developer Guide",
+	"about": "",
+	"index": [{
+		"chapter": "Quick Start",
+		"folder": "quick-start",
+		"desc": ""
+	},{
+		"chapter": "Example: ARM mbed",
+		"folder": "sample-arm-mbed",
+		"desc": ""
+	},{
+        "chapter": ".CITY Starter Kit",
+        "folder": "dotcity-starter-kit",
+        "desc": ""
+    }]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "wotcity-developer-docs",
+  "version": "0.0.1",
+  "description": "WoT.City Documentation",
+  "main": "index.js",
+  "directories": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "author": "jollen <jollen@jollen.org> (http://jollen.org/)",
+  "license": "MIT"
+}
