@@ -1,4 +1,4 @@
-# IoT App Frontend：30 分鐘 IoT 前端開發
+# 3. 物聯網視訊直播
 
 WoT.City 開始支援 Live Streaming 功能，您將能使用 IoT 裝置進行線上視訊直接。目前 Live Streaming 功能尚在測試階段，同時間僅開放 5 個裝置。預計 6 月初完成系統測試後全面開放。
 

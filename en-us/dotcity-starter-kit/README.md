@@ -1,4 +1,4 @@
-# .CITY Starter Kit
+# 3. Develop IoT Frontend
 
 .CITY Starter Kit is a simple example that help makers making IoT web frontend.
 
@@ -18,21 +18,24 @@
 1. [Node.js](https://nodejs.org). Note: Node should be with a version above 0.10.x.
 2. [Gulp](http://gulpjs.com). Note: Run `$ npm install --global gulp` to install the latest version.
 
-## Discussion
+## Usage
 
-There are various ways to get involved with .CITY Starter Kit. We're looking for help identifying bugs, writing documentation and contributing codes.
+.CITY Starter Kit is built by BackboneJS. *Backbone.Rounter* is used to identify the device name. Refer to step 8 above, plesae open *index.html* as the following example.
 
-Most of the .CITY Starter Kit developers, users and contributors are at WeChat group or IRC channel. You can find us in the [#wotcity](http://webchat.freenode.net/?channels=wotcity) IRC channel on irc.freenode.net. You can get information of how to join WeChat group at [#wotcity](http://webchat.freenode.net/?channels=wotcity).
+```
+html#5547870f4dd3e08d63000007
+```
 
-## How to Report Bugs
+Once your mbed device starting push JSON data, WoT.City will forward the data to web frontend. The example reads data over Websocket and triggers *Backbone.Model* change state. 
 
-Bugs are reported via [https://github.com/wotcity/dotcity-starter-kit](https://github.com/wotcity/dotcity-starter-kit).
+## JSON Format
 
-## Core Style Guide
+The JSON format of this example should be the following.
 
-.CITY Starter Kit project follows [jQuery's Style Guides](http://contribute.jquery.org/style-guide/) except that:
+```
+{
+    "temperature": <Number>
+}
+```
 
-* `forin` must be used in .CITY Starter Kit project.
-* `quotmark` must be `single`. Strings must use singlequote.
-
-.CITY Starter Kit project uses JSHint to validate code styles. The JSHint options are stored in the `.jshintrc` file. Run `$ gulp jshint` to detect errors.
+The format of IoT device and IoT frontend must be unified.

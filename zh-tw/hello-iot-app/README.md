@@ -1,4 +1,4 @@
-# IoT App Frontend：30 分鐘 IoT 前端開發
+# 2. 物聯網 Frontend 快速入門
 
 將 ARM mbed 裝置「封裝」成 web app 只要簡單的 7 個步驟，而且不用寫程式。請閱讀 [Physical to App：30 分鐘物聯網上手、Code-less](http://wotcity.com/guide/hello-world/zh-tw) 教學文件，了解「裝置到 IoT App」的做法。
 

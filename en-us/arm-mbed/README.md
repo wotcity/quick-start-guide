@@ -1,5 +1,4 @@
- 
-## Quick Start
+# 2. Develop IoT Device
 
 WoT.City supports `ws://` service to connect physicals to HTML5 frontend.
 
@@ -82,5 +81,15 @@ int main()
         sprintf( data , "{ \"temperature\": %f }", 25.0);
         ws.send(data);
     }
+}
+```
+
+## JSON Format
+
+In this example, the JSON format is as following.
+
+```
+{
+    "temperature": <Number>
 }
 ```
