@@ -1,4 +1,14 @@
-# 1. Getting Started
+<div class="row">
+    <div class="col-md-12">
+        <ol class="breadcrumb">
+          <li><a href="#">Quick Start Guide</a></li>
+          <li class="active">Getting Started</li>
+          <li class="active github"><a href="https://github.com/wotcity/quick-start-guide/tree/master/en-us/getting-started" class="fa fa-github">View on Github</a></li>
+        </ol>
+    </div>
+</div>
+
+# Getting Started
 
 You must get a unique device name before developing the IoT device and its web front-end. There way two ways to *Get Device Name*.
 

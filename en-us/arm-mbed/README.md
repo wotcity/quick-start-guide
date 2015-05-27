@@ -1,4 +1,14 @@
-# 2. Develop IoT Device
+<div class="row">
+    <div class="col-md-12">
+        <ol class="breadcrumb">
+          <li><a href="#">Quick Start Guide</a></li>
+          <li class="active">Develop IoT Device</li>
+          <li class="active github"><a href="https://github.com/wotcity/quick-start-guide/tree/master/en-us/arm-mbed" class="fa fa-github">View on Github</a></li>
+        </ol>
+    </div>
+</div>
+
+# Develop IoT Device
 
 WoT.City supports `ws://` service to connect physicals to HTML5 frontend.
 

@@ -1,4 +1,14 @@
-# 3. Develop IoT Frontend
+<div class="row">
+    <div class="col-md-12">
+        <ol class="breadcrumb">
+          <li><a href="#">Quick Start Guide</a></li>
+          <li class="active">Develop IoT Frontend</li>
+          <li class="active github"><a href="https://github.com/wotcity/quick-start-guide/tree/master/en-us/dotcity-starter-kit" class="fa fa-github">View on Github</a></li>
+        </ol>
+    </div>
+</div>
+
+# Develop IoT Frontend
 
 .CITY Starter Kit is a simple example that help makers making IoT web frontend.
 
