@@ -37,3 +37,15 @@ WoT.City 的做法是讓 IoT 裝置透過 HTTP 來推送視訊流，說明如下
 
 * 易於整合現有技術，例如：*ffmpeg*
 * 讓 WoT.City 的 Video Broker 支援 HLS（HTTP Live Streaming）
+
+## 本地測試
+
+亦可使用 `ffmpeg` 在本地端進行測試。Mac 使用者，請使用 brew 安裝 ffmpeg 套件。輸入以下指令，將擷取的視訊推送到 v.wot.city：
+
+```
+$ ffmpeg -f qtkit -r 30 -i "0" -f mpeg1video -b:v 1000k -s 640x480 http://v.wot.city/object/555ada050757f8140300000
+```
+
+## 參考文件
+
+1. https://trac.ffmpeg.org/wiki/Capture/Webcam
