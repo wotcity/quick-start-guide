@@ -114,17 +114,17 @@ app.Container = Backbone.Model.extend({
 開啟 `index.html` 文件，找到 Template 的定義：
 
 ```
-    <script type="text/template" id="tmpl-status">
-      <p class="lead"><%= data %></p>
-    </script>
+    &lt;script type="text/template" id="tmpl-status"&gt;
+      &lt;p class="lead"&gt;&lt;%= data %&gt;&lt;/p&gt;
+    &lt;/script&gt;
 ```
 
 Template 裡的語法：*<%= data %>*，是引用變數值的寫法。Template 裡的變數名稱，就是 JSON 文件的 key：必須 ARM mbed 裝置的 JSON 文件一致。以上述範例來說，需修改如下：
 
 ```
-    <script type="text/template" id="tmpl-status">
-      <p class="lead"><%= temp %></p>
-    </script>
+    &lt;script type="text/template" id="tmpl-status"&gt;
+      &lt;p class="lead"&gt;&lt;%= temp %&gt;&lt;/p&gt;
+    &lt;/script&gt;
 ```
 
 以本文的範例來看，ARM mbed 裝置所推送給 WoT.City 的 JSON 文件如下：
@@ -136,9 +136,9 @@ Template 裡的語法：*<%= data %>*，是引用變數值的寫法。Template �
 UI 的部份請自由發揮，例如：
 
 ```
-    <script type="text/template" id="tmpl-status">
-      <h1><%= temp %></h1>
-    </script>
+    &lt;script type="text/template" id="tmpl-status"&gt;
+      &lt;h1&gt;&lt;%= temp %&gt;&lt;/h1&gt;
+    &lt;/script&gt;
 ```
 
 完成後進行程式碼的編譯（Browserify）。
